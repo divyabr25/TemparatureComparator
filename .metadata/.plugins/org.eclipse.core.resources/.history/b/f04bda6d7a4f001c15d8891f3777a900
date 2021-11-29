@@ -1,0 +1,27 @@
+package com.qa.ui.tests;
+
+import com.qa.sourceFactory.TemparatureSourceFactory;
+import com.qa.tempInterface.TemparatureInterface;
+
+public class TestRunner {
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String UILayer = "UI";
+		String APILayer = "API";
+		String City = args[2];
+		
+		TemparatureSourceFactory getSrc = new TemparatureSourceFactory();
+		TemparatureInterface tempInterface = getSrc.getSource(Layer);
+		if(UILayer) {
+			tempInterface.getTemperature(City);
+		}
+		elseif(APILayer){
+			tempInterface.getTemperature(City);
+		}
+		
+		
+		}
+
+}

@@ -1,0 +1,17 @@
+package com.qa.source;
+
+import com.qa.restAPI.APIGetTemp;
+import com.qa.tempInterface.TemparatureInterface;
+import com.qa.uiSource.uiSource;
+
+public class GetSource {
+	String Source = null;
+	//String SourceAPI = "API";
+	TemparatureInterface uiSource = new uiSource();
+	TemparatureInterface apiSource = new APIGetTemp();
+	
+	if() {
+		
+	}
+
+}

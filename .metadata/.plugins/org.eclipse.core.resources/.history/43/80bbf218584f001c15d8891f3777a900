@@ -1,0 +1,18 @@
+package com.qa.factory;
+
+import com.qa.tempInterface.TemparatureInterface;
+import com.qa.ui.pages.SearchResultPage;
+
+public class TemparatureFactory implements TemparatureInterface {
+	@Override
+	public float getTemperature(String city)  {
+		// TODO Auto-generated method stub
+		float temperature = -1;
+		SearchResultPage searchResult =this.Search(city);
+		temperature = searchResult.getUITemp();
+		System.out.println(temperature);
+		return temperature;
+	}
+
+
+}

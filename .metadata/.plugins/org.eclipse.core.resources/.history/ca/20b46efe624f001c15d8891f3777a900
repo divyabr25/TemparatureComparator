@@ -1,0 +1,9 @@
+package com.qa.source;
+
+import com.qa.tempInterface.TemparatureInterface;
+
+public class GetSource {
+	
+	TemparatureInterface uiSource = new 
+
+}
