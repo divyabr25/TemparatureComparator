@@ -61,8 +61,4 @@ public class APISource extends TestBase implements TemparatureInterface{
 			return temperature;
 		}
 		
-		/*
-		 * public static void main(String[] args) { APIGetTemp apiTemp =new
-		 * APIGetTemp(); apiTemp.getTemperature(); }
-		 */
 }

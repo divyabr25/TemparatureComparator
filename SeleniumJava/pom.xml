@@ -57,6 +57,14 @@
   </dependencies>
   <build>
     <plugins>
+    	<plugin>
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>exec-maven-plugin</artifactId>
+            <version>3.0.0</version>
+            <configuration>
+                <mainClass>com.runner.ComparatorRunner</mainClass>
+            </configuration>
+        </plugin>
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-compiler-plugin</artifactId>
@@ -67,11 +75,13 @@
             </configuration>
         </plugin>
         <plugin>
+        	 <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-jar-plugin</artifactId>
+            <version>2.4</version>
             <configuration>
                 <archive>
                     <manifest>
-                        <mainClass>com.qa.ui.tests.TestRunner</mainClass>
+                        <mainClass>com.runner.ComparatorRunner</mainClass>
                     </manifest>
                 </archive>
             </configuration>

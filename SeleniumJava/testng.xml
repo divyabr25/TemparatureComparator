@@ -3,8 +3,8 @@
 <suite name="Suite" parallel="false" preserve-order="true">
     <test name="Regression">
          <classes>
-             <class name="com.qa.ui.tests.searchPageTest"/>
-            <class name="com.qa.ui.tests.searchResultPageTest"/>
+             <class name="com.qa.tests.searchPageTest"/>
+            <class name="com.qa.tests.searchResultPageTest"/>
           </classes>
      </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -1,7 +1,9 @@
 D:\Temparature_project\SeleniumJava\src\main\java\com\qa\ui\pages\SearchPage.java
 D:\Temparature_project\SeleniumJava\src\main\java\com\qa\tempInterface\TemparatureInterface.java
 D:\Temparature_project\SeleniumJava\src\main\java\com\qa\ui\testBase\TestBase.java
+D:\Temparature_project\SeleniumJava\src\main\java\com\qa\restAPI\APISource.java
 D:\Temparature_project\SeleniumJava\src\main\java\com\qa\ui\pages\SearchResultPage.java
-D:\Temparature_project\SeleniumJava\src\main\java\com\qa\factory\TemparatureFactory.java
+D:\Temparature_project\SeleniumJava\src\main\java\com\qa\sourceFactory\TemparatureSourceFactory.java
+D:\Temparature_project\SeleniumJava\src\main\java\com\qa\uiSource\UISource.java
+D:\Temparature_project\SeleniumJava\src\main\java\com\qa\exception\TemparatureNotInVariance.java
 D:\Temparature_project\SeleniumJava\src\main\java\com\qa\util\TestUtil.java
-D:\Temparature_project\SeleniumJava\src\main\java\com\qa\restAPI\APIGetTemp.java

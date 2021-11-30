@@ -1,16 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 115.348 s <<< FAILURE! - in TestSuite
-com.qa.ui.tests.searchPageTest.searchCity  Time elapsed: 0.485 s  <<< FAILURE!
-org.openqa.selenium.NoSuchElementException: 
-Unable to locate element: //a[1]/div[@class ='cur-con-weather-card__body']/div[@class ='cur-con-weather-card__panel']/div/div/div[@class='temp']
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.0.0', revision: '3a21814679'
-System info: host: 'LT14-DBR1-IND', ip: '172.20.10.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [885ef78d-9896-4185-a74c-e3061d2180b2, findElement {using=xpath, value=//a[1]/div[@class ='cur-con-weather-card__body']/div[@class ='cur-con-weather-card__panel']/div/div/div[@class='temp']}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 78.15.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210927121355, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 22280, moz:profile: C:\Users\DBR1\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 885ef78d-9896-4185-a74c-e3061d2180b2
-	at com.qa.ui.tests.searchPageTest.searchCity(searchPageTest.java:42)
-
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 284.574 s - in TestSuite
