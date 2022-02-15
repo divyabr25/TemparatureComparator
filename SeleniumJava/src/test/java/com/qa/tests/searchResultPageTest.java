@@ -31,7 +31,7 @@ public class searchResultPageTest extends TestBase {
 	@Test(priority = 1)
 	public void validateSearchResultPageTitle() {
 		//float resultTemp = srp.getTemperature("Bengaluru");
-		tempFact.getTemperature("Bengaluru,KA");
+	//	tempFact.getTemperature(city);
 		String title = srp.ValidateResultPageTitle();
 		//Assert.assertEquals(title,"Bengaluru, Karnataka, India Today, Tonight & Tomorrow's Weather Forecast | AccuWeather","OnsearchResultPage");
 		System.out.println("validated "+title);

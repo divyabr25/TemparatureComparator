@@ -3,6 +3,8 @@ com\qa\uiSource\UISource.class
 com\qa\tempInterface\TemparatureInterface.class
 com\qa\util\TestUtil.class
 com\qa\restAPI\APISource.class
+com\runner\Comparator.class
+com\runner\ComparatorRunner.class
 com\qa\ui\pages\SearchResultPage.class
 com\qa\sourceFactory\TemparatureSourceFactory.class
 com\qa\exception\TemparatureNotInVariance.class

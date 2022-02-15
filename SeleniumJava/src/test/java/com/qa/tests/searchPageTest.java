@@ -38,12 +38,13 @@ public class searchPageTest extends TestBase{
 	@Test(priority = 2)
 	public void searchCity() {
 		System.out.println("second method in 1 ");
-		//tempFactory.getTemperature("Bengaluru,KA");
-		//srp = sp.Search(city);
+		//tempFactory.getTemperature("Chennai");
+		//srp = sp.Search("Chennai");
 	}
 	
 	@AfterMethod
 	public void tearDown() { 
+		System.out.println("Aftermethod");
 		driver.quit(); 
 		}
 	 

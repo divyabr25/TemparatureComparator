@@ -25,9 +25,10 @@ public class APISource extends TestBase implements TemparatureInterface{
 	}
 	
 	//GET Method
-		private int get(String city) throws ClientProtocolException, IOException {
+		public float get(String city) throws ClientProtocolException, IOException {
+			System.out.println("CIIIIIIIIIIIIIIIIIIIIIIty"+city);
 			String url = this.apiUrl+"?q="+city+"&appid="+this.key;
-			
+			System.out.println("Urrrrrrrrrrrrrrrrrrl"+url);
 			HttpClient httpClient = HttpClients.createDefault();
 			HttpGet httpGet = new HttpGet(url);
 			httpClient.execute(httpGet); //hit the get url
@@ -40,7 +41,7 @@ public class APISource extends TestBase implements TemparatureInterface{
 			JSONObject jsonResponse =new JSONObject(responseString);
 			
 			Double restTemp = jsonResponse.getJSONObject("main").getDouble("temp_min");
-			int apiTemp= (int) Math. round(restTemp - 273.15);
+			float apiTemp= (float) Math. round(restTemp - 273.15);
 			System.out.println(apiTemp);
 				
 			return apiTemp;

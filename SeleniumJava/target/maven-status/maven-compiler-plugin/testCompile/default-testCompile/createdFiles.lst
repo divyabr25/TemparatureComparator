@@ -1,4 +1,2 @@
 com\qa\tests\searchResultPageTest.class
-com\runner\ComparatorRunner.class
 com\qa\tests\searchPageTest.class
-com\qa\tests\Comparator.class

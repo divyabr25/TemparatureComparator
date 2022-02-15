@@ -11,5 +11,6 @@ public interface TemparatureInterface {
 	float getTemperature (String city);
 	
 	
+	
 
 }

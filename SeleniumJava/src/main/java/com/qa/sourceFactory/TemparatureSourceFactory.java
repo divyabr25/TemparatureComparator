@@ -1,5 +1,7 @@
 package com.qa.sourceFactory;
 
+import org.json.JSONObject;
+
 import com.qa.restAPI.APISource;
 import com.qa.tempInterface.TemparatureInterface;
 import com.qa.uiSource.UISource;

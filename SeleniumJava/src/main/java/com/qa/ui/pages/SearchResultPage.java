@@ -17,13 +17,14 @@ public class SearchResultPage extends TestBase {
 	public SearchResultPage() {
 		// TODO Auto-generated constructor stub
 		//this.driver = driver;
-		sp = new SearchPage();
 		PageFactory.initElements(driver, this);	
+		//sp = new SearchPage();
 		
 	}
 	
 	//Get the temparature
 	public int getUITemp() {
+		
 		String uiTemp = UItemp.getText();
 		System.out.println("temparature in string "+uiTemp);
 		uiTemp = uiTemp.substring(0,2);
